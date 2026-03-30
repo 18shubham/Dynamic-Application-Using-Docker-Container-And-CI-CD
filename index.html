@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Backup Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        h1 {
+            color: #38bdf8;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .status {
+            color: #22c55e;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚀 CI/CD Using Docker And Github</h1>
+        <p>This project creates automated Application Using Docker and Github Action.</p>
+        <p>Status: <span class="status">Running Successfully</span></p>
+        <p id="time"></p>
+    </div>
+
+    <script>
+        document.getElementById("time").innerText =
+            "Last Updated: " + new Date().toLocaleString();
+    </script>
+
+</body>
+</html>
